@@ -1,0 +1,31 @@
+.thank_you_img_container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 24px;
+}
+
+.selected {
+    width: 60%;
+    border-radius: 25px;
+    color: #FC7614;
+    text-align: center;
+    padding: 8px 12px;
+    margin: 1.5rem auto;
+    background-color: #262E38;
+}
+
+
+.title {
+    text-align: center;
+    margin: 32px 0 16px 0;
+}
+
+.text {
+    line-height: 31px;
+    color: gray;
+    text-align: center;
+    margin: 31px 0;
+    font-size: 0.9rem;
+}
+

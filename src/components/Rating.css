@@ -1,0 +1,85 @@
+.star_img_container {
+    height: 45px;
+    width: 45px;
+    border-radius: 50%;
+    background-color: #262E38;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.card-body {
+    margin-top: 20px;
+}
+
+.title {
+    color: #ffff;
+    margin: 32px 0px 16px 0;
+    font-weight: 700;
+}
+
+.text {
+    color: #969FAD;
+    font-family: 'Overpass', sans-serif;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px;
+}
+
+.rating {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    /* margin-top: 10px; */
+}
+
+.rating_container {
+    border-radius: 50%;
+    background-color: #262E38;
+    width: 51px;
+    height: 51px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.rating_container.active {
+    color: #ffff;
+    background-color: #969FAD;
+}
+
+.rating_container:hover {
+    background-color: #FC7614;
+    color: white;
+}
+
+
+.submit-btn {
+    margin-top: 30px;
+    width: 340px;
+    height: 45px;
+    background-color: #FC7614;
+    border: none;
+    border-radius: 23px;
+
+    font-family: 'Overpass';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 19px;
+    letter-spacing: 2px;
+
+    cursor: pointer;
+    text-transform: uppercase;
+    border: 0;
+    outline: 0;
+    width: 100%;
+}
+
+.submit-btn:active {
+    background-color: #ffff;
+    color: #FC7614;
+}
